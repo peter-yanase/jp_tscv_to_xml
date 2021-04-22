@@ -3,6 +3,6 @@
 A Python script for batch-converting Japanesecsv and/or tsv files to xml.
 
 ## Dependencies
-Cutlet
-mecab
-unidic-lite
+- Cutlet
+- mecab
+- unidic-lite
