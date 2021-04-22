@@ -30,7 +30,7 @@ for file_name in os.listdir():
             entry = normalize(input('Name your entries.\n'))
             header = '<?xml version="1.0" encoding="UTF-8"?>\n<' + collection + '>\n'
             footer = '</' + collection + '>'
-            output_file_name = file_name[:-3] + 'xls'
+            output_file_name = file_name[:-3] + 'xml'
             output_file = open(output_file_name, 'w')
             output_file.write(header)
             for row in source_data:
